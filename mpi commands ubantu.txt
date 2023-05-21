@@ -1,0 +1,8 @@
+if mpi not install in ubantu then use following :
+
+sudo apt install mpich
+
+if install then run follo:
+
+mpicc DS3.c -0 output (output is the name of file that we want and DS3.c is name of file of our code) 
+mpirun -np 4 ./output
