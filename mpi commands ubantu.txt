@@ -6,3 +6,7 @@ if install then run follo:
 
 mpicc DS3.c -0 output (output is the name of file that we want and DS3.c is name of file of our code) 
 mpirun -np 4 ./output
+
+and if mpi.h error occur then use foll command:
+
+sudo apt install libopenmpi-dev
